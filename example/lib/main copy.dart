@@ -2,8 +2,9 @@ import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:yuvtransform/camera_handler.dart';
-import 'package:yuvtransform/yuv_transform_screen.dart';
+import 'package:yuvtransform_example/yuv_transform_screen.dart';
+
+import 'camera_handler.dart';
 
 Future<void> main() async {
   // Required for observing the lifecycle state from the widgets layer.
